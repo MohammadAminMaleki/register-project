@@ -1,2 +1,7 @@
-let label = document.getElementsByClassName('salam');
-console.log(label);
+let label = document.getElementsByClassName('button');
+if(label[0].innerHTML == "Sign Up"){
+    console.log('hello')
+}else{
+    console.log('hello11111')
+
+}

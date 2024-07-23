@@ -1,0 +1,67 @@
+body{
+    font-family: "Lalezar-Regular";
+    box-sizing: border-box;
+}
+
+.wrapper{
+
+}
+
+.header{
+    justify-content: space-around;
+    background-color: #8395a1;
+    align-items: center;
+    margin-bottom: 40px;
+    display: flex;
+    height: 95px;
+}
+
+.email{
+    line-height: 20px;
+    color: #fff;
+}
+
+.title{
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+}
+
+.date{
+    line-height: 20px;
+    color: #fff;
+}
+
+table{
+    border-collapse: separate;
+    border-spacing: 20px;
+}
+
+td{
+    width: 500px;
+    border: 1px solid grey;
+}
+
+.container{
+    margin: 0 auto;
+    height: 400px;
+    width: 400px;
+}
+
+.data{
+    background-color: blue;
+    line-height: 120px;
+    text-align: right;
+    font-size: 20px;
+    padding: 15px;
+    color: #fff;
+    height: 400px;
+}
+
+.sum{
+    background-color: aquamarine;
+    text-align: right;
+    line-height: 60px;
+    padding: 15px;
+    height:60px;
+}
