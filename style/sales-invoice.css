@@ -7,10 +7,6 @@ body{
 
 }
 
-.container{
-
-}
-
 .header{
     justify-content: space-around;
     background-color: #8395a1;
@@ -34,6 +30,11 @@ body{
 .date{
     line-height: 20px;
     color: #fff;
+}
+
+.container{
+    width: 1350px;
+    margin: 0 auto;
 }
 
 table{
@@ -70,8 +71,7 @@ td:hover{
 }
 
 hr{
-    border: 1px solid #57697d;
-    border-style: dashed;
+    width: 100%;
 }
 
 .sum{
