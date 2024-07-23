@@ -35,17 +35,24 @@ body{
 table{
     border-collapse: separate;
     border-spacing: 20px;
+    text-align: center;
+}
+
+th{
+    color:#57697d;
+    font-size: 25px;
 }
 
 td{
+    background-color: #ececec;
+    vertical-align: middle;
+    border-radius: 5px;
     width: 500px;
-    border: 1px solid grey;
+    height: 40px;
 }
 
-.container{
-    margin: 0 auto;
-    height: 400px;
-    width: 400px;
+td:hover{
+    background-color: green;
 }
 
 .data{
@@ -58,10 +65,36 @@ td{
     height: 400px;
 }
 
+hr{
+    border: 1px solid #57697d;
+    border-style: dashed;
+}
+
 .sum{
     background-color: aquamarine;
     text-align: right;
     line-height: 60px;
     padding: 15px;
     height:60px;
+}
+
+.button{
+    background-color: #57697d;
+    border-radius: 5px;
+    text-align: center;
+    margin: 20px auto;
+    padding: 15px;
+    height: 20px;
+    width: 65px;
+}
+
+.button:hover{
+    background-color: rgb(143, 143, 143);
+}
+
+a[href="./invoice-data.html"]{
+    text-decoration: none;
+    vertical-align: middle;
+    font-size: 18px;
+    color: #fff;
 }

@@ -1,0 +1,29 @@
+body{
+    font-family: "Lalezar-Regular";
+    box-sizing: border-box;
+}
+
+.header{
+    justify-content: space-around;
+    background-color: #8395a1;
+    align-items: center;
+    margin-bottom: 40px;
+    display: flex;
+    height: 95px;
+}
+
+.email{
+    line-height: 20px;
+    color: #fff;
+}
+
+.title{
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+}
+
+.date{
+    line-height: 20px;
+    color: #fff;
+}
