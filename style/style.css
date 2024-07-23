@@ -16,7 +16,7 @@ body{
     box-shadow: 0 0 40px rgb(0 0 0 / 50%);
     backdrop-filter: blur(5px);
     border: 2px solid #fff;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: column;
     align-items: center;
     border-radius: 10px;
@@ -32,18 +32,24 @@ h2{
     color: #fff;
 }
 
+.username-label,.password-label{
+    width: 100%;
+}
+
 label[for="username"],label[for="password"]{
     font-family: "Roboto-Bold";
     align-self: baseline;
     margin: 10px 0px;
+    display: block;
     color: #fff;
 }
 
 #password,#username{
     background-color: rgba(255,255,255,0.07);
     border-radius: 4px;
+    text-indent: 10px;
     color: #000000;
-    font-size: 20px;
+    font-size: 18px;
     outline: none;
     height: 50px;
     border: none;
@@ -53,7 +59,6 @@ label[for="username"],label[for="password"]{
 #password::placeholder,#username::placeholder{
     font-family: "Roboto-Medium";
     color: #ff8a05;
-    padding: 10px;
     margin: 10px;
 }
 
