@@ -6,24 +6,12 @@ let password = document.getElementById('password')
 let link = document.getElementById('link')
 console.log(link)
 
-link.addEventListener("click",function (){
+link.addEventListener("click",function (event){
+    event.preventDefault()
     if(userName.value == validUserName && password.value == validPassword){
-        // link.style.href="./sales-invoice.html"
-        link.setAttribute("href","./sales-invoice.html")
-        console.log(link)
+        window.location.href='./sales-invoice.html'
     }else{
-        alert('رمز ورود نامعتبر است.')
+        alert('نام کاربری و رمز ورود نامعتبر است.')
         link.setAttribute("target","#")
     }
 })
-
-// function clickFunc(){
-//     if(userName.value == validUserName && password.value == validPassword){
-//         // link.style.href="./sales-invoice.html"
-//         link.setAttribute("href","./sales-invoice.html")
-//         console.log(link)
-//     }else{
-//         alert('رمز ورود نامعتبر است.')
-//         link.setAttribute("target","#")
-//     }
-// }
