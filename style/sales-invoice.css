@@ -92,14 +92,14 @@ hr{
     background-color: #57697d;
     border-radius: 5px;
     text-align: center;
-    margin: 20px auto;
+    margin: 15px auto;
     padding: 15px;
     height: 20px;
     width: 65px;
 }
 
 .button:hover{
-    background-color: rgb(143, 143, 143);
+    background-color: rgb(173, 173, 173);
 }
 
 a[href="./invoice-data.html"]{
