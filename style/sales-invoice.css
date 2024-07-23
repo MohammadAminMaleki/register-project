@@ -7,6 +7,10 @@ body{
 
 }
 
+.container{
+
+}
+
 .header{
     justify-content: space-around;
     background-color: #8395a1;
@@ -71,11 +75,17 @@ hr{
 }
 
 .sum{
-    background-color: aquamarine;
+    justify-content: center;
+    align-items: center;
     text-align: right;
     line-height: 60px;
+    display: flex;
     padding: 15px;
     height:60px;
+}
+
+.invoice,#total{
+    font-size: 25px;
 }
 
 .button{

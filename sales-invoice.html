@@ -12,55 +12,75 @@
   </head>
   <body>
     <section class="wrapper">
-      <div class="header">
-        <div class="email">
-          <p class="email-title">ایمیل:</p>
-          <p>mhmdamyjl12@gmail.com</p>
+        <div class="header">
+          <div class="email">
+            <p class="email-title">ایمیل:</p>
+            <p>mhmdamyjl12@gmail.com</p>
+          </div>
+          <h2 class="title">فاکتور فروش</h2>
+          <div class="date">
+            <p>تاریخ:</p>
+            <p class="date-number">1403/04/01</p>
+          </div>
         </div>
-        <h2 class="title">فاکتور فروش</h2>
-        <div class="date">
-          <p>تاریخ:</p>
-          <p class="date-number">1403/04/01</p>
+        <table>
+          <thead>
+            <tr>
+              <th>نام کالا</th>
+              <th>مقدار کالا</th>
+              <th>قیمت واحد</th>
+              <th>میزان</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td id="salam">1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>6</td>
+              <td>7</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td>10</td>
+              <td>11</td>
+              <td>12</td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td>10</td>
+              <td>11</td>
+              <td>12</td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td>10</td>
+              <td>11</td>
+              <td>12</td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td>10</td>
+              <td>11</td>
+              <td>12</td>
+            </tr>
+          </tbody>
+        </table>
+        <hr>
+          <div class="sum">
+            <h4 class="invoice">مجموع کل فاکتور:</h4>
+            <h3 id="total"></h3>
+          </div>
+          <div class="button">
+            <a href="./invoice-data.html" target="_blank">دکمه چاپ</a>
+          </div>
         </div>
-      </div>
-      <table>
-        <thead>
-          <tr>
-            <th>نام کالا</th>
-            <th>مقدار کالا</th>
-            <th>قیمت واحد</th>
-            <th>تعداد</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>1</td>
-            <td>2</td>
-            <td>3</td>
-            <td>4</td>
-          </tr>
-          <tr>
-            <td>5</td>
-            <td>6</td>
-            <td>7</td>
-            <td>8</td>
-          </tr>
-          <tr>
-            <td>9</td>
-            <td>10</td>
-            <td>11</td>
-            <td>12</td>
-          </tr>
-        </tbody>
-      </table>
-      <hr>
-        <div class="sum">
-          <h4>مجموع کل فاکتور:</h4>
-        </div>
-        <div class="button">
-          <a href="./invoice-data.html" target="_blank">دکمه چاپ</a>
-        </div>
-      </div>
     </section>
+    <script src="./js/sales-invoice.js"></script>
   </body>
 </html>
