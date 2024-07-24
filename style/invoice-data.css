@@ -29,7 +29,7 @@ body{
 }
 
 .invoice-title{
-    margin-right: 223px;
+    margin-right: 113px;
     margin-bottom: 10px;
 }
 
@@ -53,6 +53,13 @@ body{
     font-size: 18px;
 }
 
+.data{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: space-evenly;
+}
+
 .container{
     justify-content: space-around;
     align-items: center;
@@ -64,4 +71,11 @@ body{
     align-items: center;
     display: flex;
     width: 200px;
+}
+
+.invoice{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }

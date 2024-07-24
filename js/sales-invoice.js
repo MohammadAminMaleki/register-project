@@ -5,11 +5,6 @@ let data=[
     {id:4,productName:"computer",price: 5650,number:1},
     {id:5,productName:"pen",price: 100,number:3},
     {id:6,productName:"paper",price: 120,number:5},
-    // {id:7,productName:"flower",price: 243,number:1},
-    // {id:8,productName:"washing machine",price: 4548,number:1},
-    // {id:9,productName:"jacket",price: 1234,number:2},
-    // {id:10,productName:"notebook",price: 2000,number:4},
-    // {id:11,productName:"tv",price: 1290,number:1},
 ]
 
 let sum = 0;
