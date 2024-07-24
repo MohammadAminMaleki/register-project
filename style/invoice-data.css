@@ -27,3 +27,41 @@ body{
     line-height: 20px;
     color: #fff;
 }
+
+.invoice-title{
+    margin-right: 223px;
+    margin-bottom: 10px;
+}
+
+.invoice-title,.number,.invoice-date,.total-invoice{
+    color: #637186;
+}
+
+.total-invoice,.number,.invoice-date{
+    margin-bottom: 10px;
+}
+
+#total-price,#invoice-number{
+    margin-bottom: 10px;
+}
+
+#total-price{
+    font-size: 30px;
+}
+
+#invoice-number,#date-number,#name,#family,#city,#phone,.content{
+    font-size: 18px;
+}
+
+.container{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+
+.invoice-data{
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    width: 200px;
+}

@@ -1,42 +1,61 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./images/registration-icon.png" />
+    <link rel="stylesheet" href="./style/reset.css" />
+    <link rel="stylesheet" href="./style/fonts.css" />
+    <link rel="stylesheet" href="./style/invoice-data.css" />
+    <title>invoice-data</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" href="./images/registration-icon.png" />
-  <link rel="stylesheet" href="./style/reset.css" />
-  <link rel="stylesheet" href="./style/fonts.css" />
-  <link rel="stylesheet" href="./style/invoice-data.css" />
-  <title>invoice-data</title>
-</head>
-
-<body>
-  <section class="wrapper">
-    <div class="header">
-      <div class="email">
-        <p class="email-title">ایمیل:</p>
-        <p>mhmdamyjl12@gmail.com</p>
+  <body>
+    <section class="wrapper">
+      <div class="header">
+        <div class="email">
+          <p class="email-title">ایمیل:</p>
+          <p>mhmdamyjl12@gmail.com</p>
+        </div>
+        <h2 class="title">فاکتور فروش</h2>
+        <div class="date">
+          <p>تاریخ:</p>
+          <p class="date-number">1403/04/01</p>
+        </div>
       </div>
-      <h2 class="title">فاکتور فروش</h2>
-      <div class="date">
-        <p>تاریخ:</p>
-        <p class="date-number">1403/04/01</p>
-      </div>
-    </div>
-    <div class="container">
-      <p>صورتحساب به</p>
-      <p>نام</p>
-      <p>فامیلی</p>
-      <p>آدرس</p>
-      <p>شهر</p>
-      <p>تلفن</p>
-      <p>شماره فاکتور</p>
-      <p>فاکتور کل</p>
-      <p>تاریخ</p>
-    </div>
-  </section>
-</body>
-
+        <p class="invoice-title">صورتحساب به</p>
+        <div class="container">
+          <div class="invoice-data">
+            <div class="invoice">
+              <p class="content">نام:</p>
+              <p class="content">فامیلی:</p>
+              <p class="content">شهر:</p>
+              <p class="content">تلفن:</p>
+            </div>
+            <div>
+              <p id="name"></p>
+              <p id="family"></p>
+              <p id="city"></p>
+              <p id="phone"></p>
+            </div>
+          </div>
+          <div>
+            <div>
+              <p class="number">شماره فاکتور</p>
+              <p id="invoice-number"></p>
+            </div>
+            <div>
+              <p class="invoice-date">تاریخ</p>
+              <p id="date-number"></p>
+            </div>
+          </div>
+          <div class="total">
+            <p class="total-invoice">فاکتور کل</p>
+            <h3 id="total-price"></h3>
+          </div>
+        </div>
+      <script src="./js/invoice-data.js"></script>
+    </section>
+  </body>
 </html>

@@ -16,7 +16,6 @@ body{
     box-shadow: 0 0 40px rgb(0 0 0 / 50%);
     justify-content: space-between;
     backdrop-filter: blur(5px);
-    border: 2px solid #fff;
     flex-direction: column;
     align-items: center;
     border-radius: 10px;
@@ -56,11 +55,11 @@ label[for="username"],label[for="password"]{
     width: 100%;
 }
 
-#password::placeholder,#username::placeholder{
+/* #password::placeholder,#username::placeholder{
     font-family: "Roboto-Medium";
     color: #ff8a05;
     margin: 10px;
-}
+} */
 
 .buttons{
     justify-content: space-evenly;
