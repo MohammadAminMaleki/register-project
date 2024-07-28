@@ -46,7 +46,7 @@ selectTags[21].innerHTML = data[5].number;
 selectTags[22].innerHTML = data[5].price;
 selectTags[23].innerHTML = (data[5].price * data[5].number);
 
-//total price
+// total price
 totalPrice.innerHTML = sum;
 
 

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../images/registration-icon.png" />
+    <link rel="stylesheet" href="../style/reset.css" />
+    <link rel="stylesheet" href="../style/fonts.css" />
+    <link rel="stylesheet" href="../style/save-data.css" />
+    <title>invoice-user</title>
+  </head>
+  <body>
+    <section class="container">
+      <div class="wrapper">
+        <label for="price">price</label>
+        <input type="text" id="price"/>
+        <label for="amount">amount</label>
+        <input type="text" id="amount" />
+        <label for="name">name</label>
+        <input type="text" id="name"/>
+        <a href="#" id="button" onclick="saveDataFunc()">Save</a>
+      </div>
+      <table id="table">
+        <tr id="tr">
+        </tr>
+      </table>
+    </section>
+    <script src="../js/save-data.js"></script>
+  </body>
+</html>

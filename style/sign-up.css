@@ -4,6 +4,11 @@ body{
     background-repeat: no-repeat;
     box-sizing: border-box;
     background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
 .wrapper{
@@ -18,6 +23,7 @@ body{
     height: 600px;
     padding: 30px;
     width: 500px;
+    /* margin-top: 25px; */
 }
 
 .form{
@@ -42,7 +48,7 @@ label[for="name"]{
 }
 
 input[type="text"],input[type="email"],input[type="password"],input[type="tel"]{
-    background-color: rgba(255, 255, 255, 0.07);
+    background-color: rgba(255, 255, 255, 0.130);
     margin-bottom: 20px;
     border-radius: 4px;
     text-indent: 10px;
@@ -68,7 +74,7 @@ input[type="text"],input[type="email"],input[type="password"],input[type="tel"]{
     background-color: rgb(173, 173, 173);
 }
 
-a[href="./sales-invoice.html"]{
+a[href="./save-data.html"]{
     text-decoration: none;
     vertical-align: middle;
     font-size: 18px;

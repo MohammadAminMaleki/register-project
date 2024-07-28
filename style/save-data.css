@@ -1,0 +1,46 @@
+body{
+    box-sizing: border-box;
+    background-color: orange;
+    font-family: "Roboto-Medium";
+}
+
+.container{
+
+}
+
+.wrapper{
+    margin: 30px;
+}
+
+label[for="price"],label[for="amount"],label[for="name"]{
+    display: block;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+input[id="price"],input[id="amount"],input[id="name"]{
+    background-color: rgba(17, 16, 16, 0.07);
+    margin-bottom: 20px;
+    border-radius: 4px;
+    text-indent: 10px;
+    color: #000000;
+    font-size: 18px;
+    outline: none;
+    height: 50px;
+    border: none;
+    width: 100%;
+}
+
+#button{
+    display: block;
+    background-color: #57697d;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin: 2px auto;
+    padding: 15px;
+    height: 20px;
+    width: 65px;
+}
