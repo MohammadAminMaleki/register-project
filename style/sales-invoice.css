@@ -4,7 +4,7 @@ body{
 }
 
 .wrapper{
-
+    
 }
 
 .header{
@@ -14,6 +14,44 @@ body{
     margin-bottom: 10px;
     display: flex;
     height: 95px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.data{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1350px;
+    margin-bottom: 40px;
+
+}
+
+.invoice{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100px;
+}
+
+.total-invoice,.number,.invoice-date{
+    margin-bottom: 10px;
+}
+
+#name,#family,#city,#phone,.content{
+    font-size: 21px;
+}
+
+#invoice-numbe,#date-number{
+    font-size: 15px;
+}
+
+#total-price{
+    font-size: 24px;
+}
+
+.invoice-title,.number,.invoice-date,.total-invoice,.content{
+    color: #637186;
 }
 
 .email{
@@ -30,6 +68,28 @@ body{
 .date{
     line-height: 20px;
     color: #fff;
+}
+
+.information{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 300px;
+}
+
+.data-complete{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 100px;
+}
+
+.same{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100px;
 }
 
 .container{
@@ -49,7 +109,8 @@ th{
 }
 
 td{
-    background-color: #ececec;
+    /* background-color: #ececec; */
+    background-color: #4f4f4f;
     vertical-align: middle;
     border-radius: 5px;
     width: 500px;
@@ -60,14 +121,8 @@ td:hover{
     background-color: green;
 }
 
-.data{
-    background-color: blue;
-    line-height: 120px;
-    text-align: right;
-    font-size: 20px;
-    padding: 15px;
-    color: #fff;
-    height: 400px;
+#name,#email,#phone{
+    font-size: 15px;
 }
 
 hr{
@@ -92,7 +147,6 @@ hr{
     background-color: #57697d;
     border-radius: 5px;
     text-align: center;
-    margin: 2px auto;
     padding: 15px;
     height: 20px;
     width: 65px;
@@ -100,6 +154,32 @@ hr{
 
 .button:hover{
     background-color: rgb(173, 173, 173);
+}
+
+.linkBtn{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 700px;
+    margin: 0 auto;
+}
+
+#new-item{
+    text-decoration: none;
+    vertical-align: middle;
+    font-size: 18px;
+    display: block;
+    background-color: #57697d;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    width: 65px;
+    height: 20px;
+    color: white;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 a[href="./invoice-data.html"]{

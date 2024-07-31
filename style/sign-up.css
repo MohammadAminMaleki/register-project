@@ -74,7 +74,7 @@ input[type="text"],input[type="email"],input[type="password"],input[type="tel"]{
     background-color: rgb(173, 173, 173);
 }
 
-a[href="./save-data.html"]{
+a{
     text-decoration: none;
     vertical-align: middle;
     font-size: 18px;

@@ -13,16 +13,27 @@
     <section class="container">
       <div class="wrapper">
         <label for="price">price</label>
-        <input type="text" id="price"/>
+        <input type="text" id="price" autofocus/>
         <label for="amount">amount</label>
         <input type="text" id="amount" />
         <label for="name">name</label>
-        <input type="text" id="name"/>
-        <a href="#" id="button" onclick="saveDataFunc()">Save</a>
+        <input type="text" id="name" />
+        <a href="" id="button">Save</a>
+        <a href="" id="editbtn">Edit</a>
+        <div class="sum">
+          <p id="total__price"></p>
+          <p>مجموع کل فاکتور</p>
+        </div>
       </div>
       <table id="table">
-        <tr id="tr">
-        </tr>
+        <thead>
+          <tr>
+            <th>نام کالا</th>
+            <th>مقدار کالا</th>
+            <th>قیمت کالا</th>
+          </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
       </table>
     </section>
     <script src="../js/save-data.js"></script>

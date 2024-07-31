@@ -1,67 +1,31 @@
-let data=[
-    {id:1,productName:"laptop",price: 3000,number:1},
-    {id:2,productName:"speaker",price: 3500,number:2},
-    {id:3,productName:"mobile",price: 4000,number:1},
-    {id:4,productName:"computer",price: 5650,number:1},
-    {id:5,productName:"pen",price: 100,number:3},
-    {id:6,productName:"paper",price: 120,number:5},
-]
-
-let sum = 0;
-for(let i = 0;i<data.length;i++){
-    sum = sum + data[i].price;
-}
-
-let selectTags = document.getElementsByTagName('td')
+let name = document.getElementById('name')
+let email = document.getElementById('email')
+let phone = document.getElementById('phone')
 let totalPrice = document.getElementById('total')
 
-console.log(selectTags)
-selectTags[0].innerHTML = data[0].productName;
-selectTags[1].innerHTML = data[0].number;
-selectTags[2].innerHTML = data[0].price;
-selectTags[3].innerHTML = (data[0].price * data[0].number);
+let one = document.getElementById('1')
+let two = document.getElementById('2')
+let three = document.getElementById('3')
+let tbody = document.getElementById('tbody')
 
-selectTags[4].innerHTML = data[1].productName;
-selectTags[5].innerHTML = data[1].number;
-selectTags[6].innerHTML = data[1].price;
-selectTags[7].innerHTML = (data[1].price * data[1].number);
+one.innerHTML = localStorage.getItem('nameValue')
+two.innerHTML = localStorage.getItem('amountValue')
+three.innerHTML = localStorage.getItem('priceValue')
 
-selectTags[8].innerHTML = data[2].productName;
-selectTags[9].innerHTML = data[2].number;
-selectTags[10].innerHTML = data[2].price;
-selectTags[11].innerHTML = (data[2].price * data[2].number);
+email.innerHTML = localStorage.getItem('emailValue')
+name.innerHTML = localStorage.getItem('usernameValue')
+phone.innerHTML = localStorage.getItem('mobileNumberValue')
 
-selectTags[12].innerHTML = data[3].productName;
-selectTags[13].innerHTML = data[3].number;
-selectTags[14].innerHTML = data[3].price;
-selectTags[15].innerHTML = (data[3].price * data[3].number);
+let total = document.getElementById('total-price')
+total.innerHTML = localStorage.getItem('priceValue')
 
-selectTags[16].innerHTML = data[4].productName;
-selectTags[17].innerHTML = data[4].number;
-selectTags[18].innerHTML = data[4].price;
-selectTags[19].innerHTML = (data[4].price * data[4].number);
-
-selectTags[20].innerHTML = data[5].productName;
-selectTags[21].innerHTML = data[5].number;
-selectTags[22].innerHTML = data[5].price;
-selectTags[23].innerHTML = (data[5].price * data[5].number);
-
-// total price
-totalPrice.innerHTML = sum;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+function newItem(){
+    // let newTr = document.createElement('tr')
+    // console.log(newTr);
+    // newTr.innerHTML = `
+    // <td>${localStorage.getItem('nameValue')}</td>  
+    // <td>${localStorage.getItem('amountValue')}</td>
+    // <td>${localStorage.getItem('priceValue')}</td> 
+    // `
+    // tbody.appendChild(newTr)
+}
